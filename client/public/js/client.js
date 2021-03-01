@@ -2,8 +2,8 @@ import "/phaser/phaser.min.js"
 
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
+    width: "100vw",
+    height: "100vh",
     physics: {
         default: 'arcade',
         arcade: {
